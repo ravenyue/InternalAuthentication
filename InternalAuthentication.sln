@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{205F63A7-B73D-42FC-AB7C-54E0B9143F6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Authentication.Internal", "src\AspNetCore.Authentication.Internal\AspNetCore.Authentication.Internal.csproj", "{1B2D0F3C-5AE1-4C7D-848C-0633020B2BB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{3371882A-5726-41D3-9046-5321E7BE16A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternalAuthenticationSample", "samples\HeaderAuthenticationSample\InternalAuthenticationSample.csproj", "{EE7FA993-3292-4FFB-B6EA-49617A238EF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9BAFABB2-1200-47CB-9048-027C90900D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Authentication.Internal.Tests", "test\AspNetCore.Authentication.Internal.Tests\AspNetCore.Authentication.Internal.Tests.csproj", "{8BC274C3-66F2-4F6C-9D14-324107DBA755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B2D0F3C-5AE1-4C7D-848C-0633020B2BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2D0F3C-5AE1-4C7D-848C-0633020B2BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2D0F3C-5AE1-4C7D-848C-0633020B2BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2D0F3C-5AE1-4C7D-848C-0633020B2BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7FA993-3292-4FFB-B6EA-49617A238EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7FA993-3292-4FFB-B6EA-49617A238EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7FA993-3292-4FFB-B6EA-49617A238EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7FA993-3292-4FFB-B6EA-49617A238EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC274C3-66F2-4F6C-9D14-324107DBA755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC274C3-66F2-4F6C-9D14-324107DBA755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC274C3-66F2-4F6C-9D14-324107DBA755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC274C3-66F2-4F6C-9D14-324107DBA755}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B2D0F3C-5AE1-4C7D-848C-0633020B2BB7} = {205F63A7-B73D-42FC-AB7C-54E0B9143F6C}
+		{EE7FA993-3292-4FFB-B6EA-49617A238EF4} = {3371882A-5726-41D3-9046-5321E7BE16A5}
+		{8BC274C3-66F2-4F6C-9D14-324107DBA755} = {9BAFABB2-1200-47CB-9048-027C90900D31}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7158BE17-BF49-4712-AA2C-654AD1FBF9A3}
+	EndGlobalSection
+EndGlobal

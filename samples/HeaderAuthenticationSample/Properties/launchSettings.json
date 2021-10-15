@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "HeaderAuthenticationSample": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "Claims?UserId=123&UserName=jack&UserRole=admin,hr&OrgId=456",
+      "applicationUrl": "http://localhost:5000/",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

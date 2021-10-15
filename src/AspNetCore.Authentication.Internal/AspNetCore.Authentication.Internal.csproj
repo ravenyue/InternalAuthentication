@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>YuJingfeng</Authors>
+    <Product>Uality</Product>
+    <Company>Uality</Company>
+    <Version>0.0.1</Version>
+    <PackageId>AspNetCore.Authentication.Internal</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+  </ItemGroup>
+
+</Project>
